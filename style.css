@@ -1,0 +1,22 @@
+table{
+  border-style: solid;
+}
+
+tbody>tr>th{
+  font-style:italic;
+  font-weight:normal;
+}
+#outer-div{
+    background-color:pink;
+    width:75%;
+    height:100px;
+    position:relative;
+}
+#inner-div{
+    background-color:lightblue;
+    color:white;
+    width:75%;
+    height:75%;
+    position:relative;
+    top:12.5px;
+}
