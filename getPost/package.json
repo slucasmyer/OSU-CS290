@@ -1,0 +1,24 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hello world with express and node.js",
+  "main": "app.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "author": "OSU",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.11.3",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "mysql": "^2.8.0"
+  }
+}
